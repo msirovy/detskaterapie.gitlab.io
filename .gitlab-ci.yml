@@ -1,0 +1,7 @@
+image: alpine:latest
+pages:
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
