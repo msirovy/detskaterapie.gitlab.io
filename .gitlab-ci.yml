@@ -1,5 +1,9 @@
 image: alpine:latest
+
 pages:
+  stage: deploy
+  script:
+  - echo "build process start"
   artifacts:
     paths:
     - public
